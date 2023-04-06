@@ -1,0 +1,6 @@
+.day-frame {
+    background-color: grey;
+    width: calc(100% - 20px);
+    height: 100px;
+    margin: 10px;
+}

@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.weather-day-container {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.week-container{ 
+  flex: 1 1 auto;
+}
+
+.components-container {
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+
+@media (max-width: 800px) {
+  .components-container {
+    flex-direction: column;
+  }
+}
+

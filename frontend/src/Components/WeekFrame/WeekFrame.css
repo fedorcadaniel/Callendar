@@ -1,0 +1,6 @@
+.week-frame {
+    background-color: grey;
+    width: calc(100% - 20px);
+    height: 90%;
+    margin: 10px;
+}
